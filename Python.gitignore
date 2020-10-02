@@ -68,6 +68,9 @@ instance/
 .swo
 .swp
 venv/
+.vscode/
+static/
+**/.DS_Store
 
 # Scrapy stuff:
 .scrapy
