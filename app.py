@@ -206,4 +206,5 @@ def tour(tour_id):
     return render_template('tour.html',tour=tour,departure=list(departures.keys()), departures=departures, tours=tours)
 
 
-app.run()
+if __name__ == '__main__':
+    app.run()
